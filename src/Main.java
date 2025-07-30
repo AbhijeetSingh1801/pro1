@@ -1,3 +1,4 @@
+
 class Solution {
   public boolean isValid(String s) {
     int n = s.length();
@@ -56,10 +57,9 @@ class Solution {
 public class Main {
     public static void main(String[] args) {
 
-      Solution sol =  new Solution();
-      boolean ans = sol.isValid("{}[]");
 
-      System.out.println(ans);
+      ReadFile rd = new ReadFile();
+      rd.start();
 
     }
 }
