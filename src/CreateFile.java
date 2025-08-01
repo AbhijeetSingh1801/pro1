@@ -12,7 +12,7 @@ public class CreateFile {
       }
     }catch (IOException e ){
       System.out.println("An error occured!!");
-      e.printStackTrace();
+      System.out.println("YOLO");
     }
   }
 }
